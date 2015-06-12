@@ -1,0 +1,32 @@
+1. How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+The plus and minus symbols saved me time in identifying differences.  Everything was on one screen instead of having to look between different screens and different files open at the same time.
+
+2. How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+You now have a faster way to see the differences between files since they are all in one place.  It simplifies the process of looking for differences in files.
+
+3. What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
+
+Pros:
+It allows you to document the differences between commits.  
+
+Cons:
+Committing is not automatic
+
+4. Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+Because in some cases, the multiple files all have some type of relationship to one another.  Like in the example of adding a button to a webpage.  This affects HTML, CSS, and JS.
+
+5. How can you use the commands git log and git diff to view the history of files?
+
+The ‘git log’ command shows you each commit with a comment describing the reason for the commit.  ‘git diff’ allows you to see the individual lines of code that were added/removed between the two commits.
+
+6. How might using version control make you more confident to make changes that could break something?
+
+You can always easily revert back to before you broke stuff through the ‘git log’ and ‘git checkout’
+
+7. Now that you have your workspace set up, what do you want to try using Git for?
+
+I want to practice using an existing project that I did for my android class “jewel matcher game.”  I want to add more features to it and see how git can help me take more risks without having to worry that I broke something.
+
