@@ -1,3 +1,8 @@
 What happens when you initialize a repository?  Why do you need it?
 
 You create a new local repository.  You need this in order to perform other git commands like git commit, git status, git log, git diff
+
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+It allows you to commit multiple files.  It allows you to see what is about to be committed.  It allows you to remove files prior to committing.
