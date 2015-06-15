@@ -18,3 +18,7 @@ When you add in a new feature it allows you to keep your current version of the 
 How do the diagrams help you visualize the branch structure?
 
 Diagrams allow you to see the sequence of commits and how the different branches are related to each other.  The help you more quickly identify a particular commit.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+It brings together the commits from both branches into one branch ordered by timestamp.  It is represented in that way because it allows us to see the time sequence and history of each commit and trace back each commit to its parent.
