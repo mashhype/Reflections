@@ -6,3 +6,15 @@ You create a new local repository.  You need this in order to perform other git 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 It allows you to commit multiple files.  It allows you to see what is about to be committed.  It allows you to remove files prior to committing.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+By only adding one file at a time.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+When you add in a new feature it allows you to keep your current version of the game unaffected by the new experimental change.  
+
+How do the diagrams help you visualize the branch structure?
+
+Diagrams allow you to see the sequence of commits and how the different branches are related to each other.  The help you more quickly identify a particular commit.
