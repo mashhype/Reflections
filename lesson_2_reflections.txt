@@ -22,3 +22,7 @@ Diagrams allow you to see the sequence of commits and how the different branches
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 
 It brings together the commits from both branches into one branch ordered by timestamp.  It is represented in that way because it allows us to see the time sequence and history of each commit and trace back each commit to its parent.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Pros:  If there isn’t a conflict it merges them very easily.  saves lots of time
+Cons:  Sometimes it fails to recognize simple function name changes that can cause user to spend more time finding the difference
